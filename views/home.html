@@ -1,0 +1,52 @@
+
+
+
+<hr>
+<div class="container">
+	<div class=" row container sectionHome">
+
+		<div class="courses">
+			<div class="col-md-6">
+				<img src="../images/cooking-baby-only-kitchen.jpg" class=" img-demo img-responsive img-circle">
+			</div>
+			<div class="col-md-9">	<h2>Welcome</h2>
+				<p>The ultimate recipes Browser is here! Check the recipe of the Week or try with our awesome Search tool... And enjoy your meal.</p></div>
+
+			</div>
+
+			<div class=" courses">
+				<div class="col-md-6">
+					<img src="../images/panck.jpg" class="img-demo img-responsive img-circle">
+				</div>
+				<div class="col-md-9">
+					<h2>Favorites</h2>
+					<p>Now that there is the Tec-9, a crappy spray gun from South Miami. This gun is advertised as the most popular gun in American crime.</p>
+					
+					</div>
+				</div>
+			
+		</div> 
+</div>
+</div>
+
+
+		<hr><!-- it draws a line -->
+		<div class="container">
+			<div class="jumbotron randJumbo">
+			<div class="container">
+				<h2 class="titleRand" >Recipe of the Week</h2>
+				<div class="row">
+					<div class="randJumbImg col-md-4">
+						<img class="img-responsive" src="images/cooking.jpg">
+					</div>
+					<div class="col-md-8 detail-background">
+						<h3 class="titleRecipeJum page-header">{{randRecip.title}}</h3>
+						<h4>Ingredients:</h4>
+						<p class="randomText" ng-repeat="recetas in randIngred">{{recetas}}</p>
+						<button class="btn btn-default "><a href="{{randRecip.publisher_url}}">Author link!</a></button> 
+					</div>
+				</div>
+			</div>         
+		</div>
+		</div>
+		

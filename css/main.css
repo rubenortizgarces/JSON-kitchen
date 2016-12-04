@@ -1,0 +1,264 @@
+body{
+  font-family: 'Montserrat', sans-serif;
+  color: black;
+  font-size: 14px;
+}
+a:visited, a:link, a:active{
+  color: black;
+  text-decoration: none;
+}
+.navbar-fixed-top {
+  position:absolute;
+  top:100px;
+}
+.randomText{
+  font-size: 1.5vh !important;
+  padding-left: 20px;
+  line-height: 10px;
+}
+.randJumbo{
+  opacity: 0.9;
+}
+.titleRand{
+  font-family: 'Pinyon Script', cursive;
+  font-size: 5vh;
+  font-weight: bolder;
+  border-bottom: 1px solid black;
+
+}
+body>main{  
+    background-image: url("/images/main.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.8;
+}
+.randJumbImg{
+  padding-top: 4%;
+}
+footer{
+    font-size: 1.5vh;
+}
+footer ul{
+  list-style-type: none;
+  display: inline;
+}
+.favsocial>div{
+  display: inline;
+}
+#insta, #face{
+  max-width: 50px;
+  min-width: 50px;
+  margin: 0px;
+  padding: 0px;
+  display: inline-flex;
+}
+.contactForm{
+  padding-top: 5%;
+  padding-bottom: 5%;
+  opacity: 0.8;
+}
+
+.logoHead{
+  font-size: 6vh;
+  padding-top: 10px;
+  display: block;
+  letter-spacing: 10px;
+}
+.headBar {
+  text-decoration: none;
+}
+
+.logoLegend{
+  font-size: 3vh;
+  padding-bottom:  15px;
+  padding-top: 0px;
+}
+
+
+.courses{
+  max-width: 1140px;
+  display: flex;
+}
+.courses {
+  display: flex;
+  align-items: center;
+}
+.sectionHome{
+  display: flex;
+  flex-wrap: nowrap;
+}
+
+#details-view{
+  margin-top: 15px;
+}
+
+/*div .jumbotron{
+  max-height: 400px;
+  padding-bottom: 40px;
+  overflow: hidden;
+}*/
+
+.img-responsive {
+  margin: 0 auto;
+  max-height: 100px%;
+  max-width: 100px%;
+
+}
+.img-rounded {
+  border-radius: 50%;
+}
+.recipe-img{
+  margin-top: 12.9%; 
+}
+
+}
+.affix {
+  top:0;
+  width: 100%;
+  z-index: 9999 !important;
+}
+
+.affix ~ .container-fluid {
+ position: relative !important;
+ top: 50px !important;
+}
+
+.thumbnail_firstResults {
+  -webkit-box-shadow: -4px 51px 118px 0px rgba(0,0,0,0.25);
+  -moz-box-shadow: -4px 51px 118px 0px rgba(0,0,0,0.25);
+  box-shadow: -4px 51px 118px 0px rgba(0,0,0,0.25);
+  background-color:#F4F4F4;
+  margin: 0.8%
+
+
+}
+
+#button_firstResults {
+  background-color: #383838;
+  color : white;
+
+}
+.textarea-style{
+  margin-top:4px; 
+  width:70px; 
+  height:40px
+}
+
+
+#about-img{
+  margin-bottom: 30px ;
+  border-radius: 5px ;
+}
+
+#about-last-paragraph{
+  text-align: right;
+  font-family: 'Pinyon Script', cursive;
+  font-size: 10vh;
+  margin-top: 198px;
+}
+
+
+.contact-input{
+  text-align: left;
+  margin: 5px 0 5px 0;
+}
+.aboutCont{
+  background-image:  url('/images/chef.jpeg');
+  background-size: cover;
+  padding: 5%;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  color: white;
+  text-shadow: 2px 2px black;
+  float: right;
+  clear: none;
+}
+#about-sign{
+  border-bottom: 2px solid;
+  border-radius: 10px;
+}
+.quoteJson{
+  text-align: right;
+}
+.rotate {
+
+/* Safari */
+-webkit-transform: rotate(-25deg);
+
+/* Firefox */
+-moz-transform: rotate(-25deg);
+
+
+/* IE */
+-ms-transform: rotate(-25deg);
+}
+
+
+/*.flex_search {
+  display: inline-flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin:-60px;
+
+  }*/
+
+
+  .searchResults{
+    padding-top: 5%;
+  }
+/*.img-thumbnail{
+  width: 300px;
+  height: 200px;
+}
+
+h4.search{
+  max-width: 210px;
+  color: #333333;
+}
+
+figure.search{
+  margin:10px 10px 10px 10px;*/
+
+/* Opera */
+-o-transform: rotate(-25deg);
+
+/* Internet Explorer */
+filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
+
+}
+
+.page-header ~ h4{
+  text-decoration: underline !important;
+}
+
+.rowA{
+    display: flex;
+  flex-wrap: wrap;
+}
+.foodDetCont{
+  display: inline-block;
+  padding: 10px;
+  max-width: 300px;
+  min-height: 400px;
+
+}
+.searchPhoto{
+  width: 270px;
+  height: 160px;
+}
+ #det-background {
+  margin-top: 4%;
+  margin-bottom: 4%;
+  padding: 0 60px 20px 60px;
+  background-color: white !important;
+  opacity: 0.8 !important;
+}
+/*.titleRecipeJum{
+  border-bottom: 1px solid black;
+}*/
+.titleRecipeJum>h4{
+  margin-top: 10px;
+  padding-top: 10px;
+  margin-bottom: 10px;
+}

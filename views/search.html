@@ -1,0 +1,14 @@
+<!-- <h2>{{title}}</h2> -->
+
+<div class="container ">
+<div ng-controller="searchResults" class="searchResults">
+	<div class="row rowA" ">
+	<div class="col-xs-6 col-md-3 foodDetCont" ng-repeat="recipe in recipes">
+		<img class="searchPhoto img-thumbnail" src="{{recipe.image}}" alt="">
+		<figcaption><h4 class="search">{{recipe.label}}</h4></figcaption>
+		<button ng-click="url_details(recipe.details_url)" type="button" class="btn btn-default">See more..</button>
+
+	</div>
+			</div>  
+</div>
+</div>
